@@ -349,3 +349,45 @@ text-decoration: none;
 .footer-site-link:hover {
   background: #FDD6BA;
 }
+.hero__wrap--background{
+  padding: 117px 0 116px 85px;
+  background-image: url(../images/about-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+border-radius: 10px;
+}
+
+/* COMMITMENT SECTION */
+.commitment-section {
+  padding-top: 168px;
+}
+.commitment-section__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commitment-section__info-wrap {
+  width: 540px;
+margin-left: 125px;
+}
+
+.info-wrap__title {
+  font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #333D4B;
+margin-bottom: 32px;
+}
+.info-wrap__text {
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+opacity: 0.8;
+}
