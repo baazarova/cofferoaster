@@ -12,8 +12,8 @@
     <!-- HEADER -->
     <header class="site-header">
       <div class="container">
-        <div class="header-wrapper">
-          <a href="./index.html">
+        <div class="site-header__wrapper">
+          <a class="site-header__logo" href="./index.html">
             <img
               src="./images/coffe-logo.svg"
               alt="cofferoaster logotip"
@@ -22,16 +22,17 @@
             />
           </a>
 
-          <ul class="header-list">
-            <li class="header-item">
-              <a class="header-link" href="./index.html">HOME</a>
+          <ul class="site-header__list">
+            <li class="site-header__item">
+              <a class="site-header__link" href="./index.html">HOME</a>
             </li>
-            <li class="header-item">
-              <a class="header-link" href="./about.html">ABOUT US</a>
+            <li class="site-header__item">
+              <a class="site-header__link" href="./about.html">ABOUT US</a>
             </li>
-            
-            <li class="header-item">
-              <a class="header-link" href="./index.html">Create your plan</a>
+            <li class="site-header__item">
+              <a class="site-header__link" href="./index.html"
+                >Create your plan</a
+              >
             </li>
           </ul>
         </div>
@@ -40,12 +41,12 @@
 
     <main>
       <!-- HERO-SECTION -->
-      <section class="hero-section">
+      <section class="hero">
         <div class="container">
-          <div class="hero-main-wrap hero__wrap--background">
-            <div class="hero-info-wrapper">
-              <h1 class="hero-title">About Us</h1>
-              <p class="hero-text">
+          <div class="hero__wrapper">
+            <div class="hero__info-wrapper">
+              <h1 class="hero__title about-title">About Us</h1>
+              <p class="hero__text">
                 Coffeeroasters began its journey of exotic discovery in 1999,
                 highlighting stories of coffee from around the world. We have
                 since been dedicated to bring the perfect cup - from bean to
@@ -55,7 +56,6 @@
           </div>
         </div>
       </section>
-
 
       <!-- COMMITMENT SECTION -->
       <section class="commitment-section">
@@ -89,6 +89,123 @@
           </div>
         </div>
       </section>
+
+      <!-- QUALITY SECTION -->
+      <section class="quality">
+        <div class="container quality__container">
+          <div class="quality__info-wrapper">
+            <h2 class="quality__info-title">Uncompromising quality</h2>
+            <p class="quality__info-text">
+              Although we work with growers who pay close attention to all
+              stages of harvest and processing, we employ, on our end, a
+              rigorous quality control program to avoid over-roasting or baking
+              the coffee dry. Every bag of coffee is tagged with a roast date
+              and batch number. Our goal is to roast consistent, user-friendly
+              coffee, so that brewing is easy and enjoyable.
+            </p>
+          </div>
+          <img class="quality__img"
+            src="./images/quality-img.png"
+            alt="cup of coffee picture"
+            width="445"
+            height="474"
+          />
+        </div>
+      </section>
+
+      <section class="headquarters">
+        <div class="container">
+          <h4 class="headquarters__title">Our headquarters</h4>
+          <ul class="headquarters__list">
+            <li class="headquarters__item">
+              <img src="./images/UK.svg" alt="united kingdom map icon">
+              <h3 class="headquarters__item-title">United Kingdom</h3>
+              <address class="headquarters__item-adres">68  Asfordby Rd <br>
+                Alcaston <br>
+                SY6 1YA <br>
+                +44 1241 918425</address>
+            </li>
+            <li class="headquarters__item">
+              <img src="./images/canada.svg" alt="canadas map icon">
+              <h3 class="headquarters__item-title">Canada</h3>
+              <address class="headquarters__item-adres">1528  Eglinton Avenue <br>
+                Toronto <br>
+                Ontario M4P 1A6 <br>
+                +1 416 485 2997</address>
+            </li>
+            <li class="headquarters__item">
+              <img src="./images/australia.svg" alt="australias map icon">
+              <h3 class="headquarters__item-title">Australia</h3>
+              <address class="headquarters__item-adres">36 Swanston Street <br>
+                Kewell <br>
+                Victoria <br>
+                +61 4 9928 3629</address>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+       <div class="site-footer__wrapper">
+        <div class="site-footer__div">
+          <a class="site-footer__logo" href="./index.html">
+            <img
+              src="./images/whitelogocoffee.svg"
+              alt="white logotip"
+              width="236"
+              height="26"
+            />
+          </a>
+          <ul class="site-footer__list">
+            <li class="site-footer__item">
+              <a class="site-footer__link" href="./index.html">HOME</a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__link" href="./index.html">ABOUT US</a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__link" href="./index.html">Create your plan</a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="site-footer__web-list web-list">
+          <li class="web-list__item">
+            <a class="web-list__link" href="./index.html">
+              <img
+                src="./images/facebook.svg"
+                alt="facebook logo"
+                width="24"
+                height="24"
+              />
+            </a>
+          </li>
+          <li class="web-list__item">
+            <a class="web-list__link" href="./index.html">
+              <img
+                src="./images/twitter.svg"
+                alt="facebook logo"
+                width="24"
+                height="24"
+              />
+            </a>
+          </li>
+          <li class="web-list__item">
+            <a class="web-list__link" href="./index.html">
+              <img
+                src="./images/instagram.svg"
+                alt="facebook logo"
+                width="24"
+                height="24"
+              />
+            </a>
+          </li>
+        </ul>
+       </div>
+      </div>
+    </footer>
   </body>
 </html>
