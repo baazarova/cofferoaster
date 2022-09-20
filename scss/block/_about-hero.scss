@@ -6,12 +6,24 @@
   
     border-radius: 10px;
   }
-  .about-about__title{
+  .about-hero__title{
     font-family: 'Fraunces';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 48px;
-  color: #FEFCF7;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 24px;
+}
+.about-hero__text{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+}
+.about-hero__info-wrapper{
+  width: 445px;
 }
   
