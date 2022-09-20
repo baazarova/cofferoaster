@@ -1,0 +1,16 @@
+.last__box {
+    max-width: 729px;
+    height: 2px;
+    background-color: #FDD6BA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .last__box span {
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    display: block;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+  }

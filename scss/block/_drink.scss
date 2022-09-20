@@ -1,0 +1,47 @@
+.drink {
+    margin-top: 168px;
+}
+.drink__main-list {
+    list-style-type: none;
+  
+}
+
+.drink__main-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   
+}
+.drink__main-link--number {
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+margin-right: 29px;
+}
+.drink__main-link--title {
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+opacity: 0.5;
+}
+.drink__main-link--title:hover{
+    opacity: 0.8;
+}
+.drink__main-link--title:active{
+    opacity: 1;
+}
+.drink__span{
+    background: #83888F;
+    opacity: 0.25; 
+    width: 255px;
+    height: 1px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}

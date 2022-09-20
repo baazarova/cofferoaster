@@ -1,0 +1,67 @@
+.choose {
+    padding-top: 112px;
+    padding-bottom: 200px;
+    background-image: url(../images/choose-sectionbg.png);
+    background-repeat: no-repeat;
+    background-size: 1280px 577px;
+    background-position: center 0;
+  }
+  .choose__div {
+    width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 86px;
+  }
+  .choose__title {
+    font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FEFCF7;
+  }
+  .choose__text {
+    font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+  opacity: 0.8;
+  }
+  .choose__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+  }
+  .choose__item {
+    width: 350px;
+    background: #0E8784;
+  border-radius: 8px;
+  padding: 72px 48px 48px 47px;
+  text-align: center;
+  }
+  .choose__item-title {
+    font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #FEFCF7;
+  padding-top: 56px;
+  padding-bottom: 24px;
+  }
+  .choose__item-text {
+    font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+  }

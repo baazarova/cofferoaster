@@ -1,0 +1,32 @@
+.commitment-section {
+    padding-top: 168px;
+  }
+  .commitment-section__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .commitment-section__info-wrap {
+    width: 540px;
+  margin-left: 125px;
+  }
+  
+  .info-wrap__title {
+    font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  margin-bottom: 32px;
+  }
+  .info-wrap__text {
+    font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+  }

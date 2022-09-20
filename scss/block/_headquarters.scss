@@ -1,0 +1,50 @@
+.headquarters {
+    padding: 168px 85px;
+   
+  }
+  .headquarters__title {
+  
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  padding-bottom: 72px;
+  }
+  .headquarters__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  list-style-type: none;
+  }
+  .headquarters__item + .headquarters__item{
+  
+    margin-left: 95px;
+  }
+  .headquarters__item{
+    width: 285px;
+    position: relative;
+  }
+  .headquarters__item-title {
+    font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  padding-bottom: 24px;
+  padding-top: 45px;
+  }
+  .headquarters__item-adres {
+    font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  }
+  .headquarters__tel{
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,66 @@
+
+    .steps__box {
+        max-width: 730px;
+        height: 1px;
+        background-color: 
+        #FDD6BA;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .steps__box span {
+   
+        border: 1px solid #0E8784;
+        display: block;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+      }
+
+      .steps {
+      
+       
+    }
+
+    .steps__list {
+        list-style-type: none;
+        padding-top: 67px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .steps__item {
+        width: 285px;
+        margin-right: 85px;
+    }
+    .steps__item-number {
+        font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FDD6BA;
+margin-bottom: 38px;
+    }
+    .steps__item-title {
+        font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #FEFCF7;
+margin-bottom: 42px;
+    }
+    .steps__item-text {
+        font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+    }
+    .steps__wrapper{
+        background-color: #000000;
+        padding: 100px 150px 100px 85px;
+        border-radius: 10px;
+    }
