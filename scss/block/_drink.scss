@@ -1,47 +1,107 @@
 .drink {
-    margin-top: 168px;
+  margin-top: 168px;
+  margin-bottom: 88px;
+}
+.drink__container{
+    display: flex;
+    justify-content: center;
+    gap: 125px;
 }
 .drink__main-list {
-    list-style-type: none;
-  
+  list-style-type: none;
+
 }
 
 .drink__main-link {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-   
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .drink__main-link--number {
-    font-family: 'Fraunces';
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 32px;
-color: #83888F;
-margin-right: 29px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-right: 29px;
 }
 .drink__main-link--title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+  opacity: 0.5;
+}
+.drink__main-link--title:hover {
+  opacity: 0.8;
+}
+.drink__main-link--title:active {
+  opacity: 1;
+}
+.drink__span {
+  background: #83888f;
+  opacity: 0.25;
+  width: 255px;
+  height: 1px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+.drink__wrap{
+width: 730px;
+
+}
+.drink__title{
     font-family: 'Fraunces';
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 32px;
-color: #333D4B;
-opacity: 0.5;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+    margin-bottom: 56px;
 }
-.drink__main-link--title:hover{
-    opacity: 0.8;
+.drink__list{
+display: flex;
+list-style-type: none;
+align-items: center;
+justify-content: center;
+gap: 23px;
+
 }
-.drink__main-link--title:active{
-    opacity: 1;
+.drink__item{
+width: 228px;
+padding: 32px 28px 84px 28px;
+background-color:#F4F1EB;
+border-radius: 8px;
+&:hover{
+    background: #FDD6BA;
 }
-.drink__span{
-    background: #83888F;
-    opacity: 0.25; 
-    width: 255px;
-    height: 1px;
-    margin-bottom: 24px;
-    margin-top: 24px;
+&:active{
+    background: #0E8784;
+   color: #ffffff;
 }
+}
+
+.drink__item-title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+margin-bottom: 24px;
+}
+.drink__item-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+ 
+}
+
+// type div

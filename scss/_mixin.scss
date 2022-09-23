@@ -1,16 +1,26 @@
-.last__box {
-    max-width: 729px;
-    height: 2px;
-    background-color: #FDD6BA;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .last__box span {
-    background: #FEFCF7;
-    border: 2px solid #0E8784;
-    display: block;
-    width: 31px;
-    height: 31px;
-    border-radius: 50%;
-  }
+@mixin list {
+  
+}
+    
+  @mixin item{
+   
+    }
+    
+    .item-title{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333D4B;
+    
+    }
+    .item-text{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+     
+    }
