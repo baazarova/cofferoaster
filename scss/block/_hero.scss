@@ -44,3 +44,31 @@
   .hero__link:hover{
     background: #66D2CF;
   }
+
+
+@media only screen and (max-width:1030px) {
+  .hero__wrapper{
+    
+    background-image: url(../images/Bitmap\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left -175px center;
+ 
+  }
+}
+
+
+  @media only screen and (max-width:1015px) {
+    .hero__title{
+      font-size: 48px;
+      line-height: 48px;
+    }
+    .hero__wrapper{
+    
+      background-image: url(../images/Bitmap\ \(1\).png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: left -175px center;
+   
+    }
+  }

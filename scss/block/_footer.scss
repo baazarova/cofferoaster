@@ -24,6 +24,9 @@
     margin-right: 103px;
   }
   
+  .site-footer__logo-img{
+    max-width: 236px;
+  }
   .site-footer__link {
     font-family: 'Barlow';
   font-style: normal;
@@ -48,4 +51,28 @@
   
   .web-list__link:hover {
   opacity: 0.5;
+  }
+
+  @media only screen and (max-width:1000px) {
+    .site-footer__div{
+      display: block;
+      text-align: center;
+    }
+    .site-footer__logo-img{
+      margin-bottom: 33px;
+    }
+    .site-footer__logo{
+      margin: 0 auto;
+    
+    }
+    .site-footer__wrapper{
+      display: block;
+    }
+    .site-footer__list{
+      justify-content: center;
+      margin-bottom: 65px;
+    }
+    .web-list {
+      justify-content: center;
+    }
   }
