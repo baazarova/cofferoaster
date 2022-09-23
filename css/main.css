@@ -546,6 +546,10 @@ body {
   opacity: 0.5;
 }
 
+.web-list__logo-img {
+  max-width: 24px;
+}
+
 @media only screen and (max-width: 1000px) {
   .site-footer__div {
     display: block;
@@ -600,9 +604,27 @@ body {
 }
 
 .about-hero__info-wrapper {
-  width: 445px;
+  max-width: 445px;
 }
 
+@media only screen and (max-width: 880px) {
+  .about-hero__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .about-hero__wrapper {
+    background-image: url(../images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left -96px center;
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
 .commitment-section {
   padding-top: 168px;
 }
@@ -620,8 +642,7 @@ body {
 }
 
 .commitment-section__info-wrap {
-  width: 540px;
-  margin-left: 125px;
+  max-width: 540px;
 }
 
 .info-wrap__title {
@@ -644,14 +665,39 @@ body {
   opacity: 0.8;
 }
 
+.commitment-section__img {
+  max-width: 445px;
+  max-height: 520px;
+  margin-right: 125px;
+}
+
+@media only screen and (max-width: 880px) {
+  .commitment-section__img {
+    max-width: 281px;
+    height: 470px;
+    margin-right: 69px;
+    border-radius: 8px;
+  }
+  .info-wrap__title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .info-wrap__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .commitment-section__info-wrap {
+    max-width: 339px;
+  }
+}
 .quality {
-  padding-top: 244px;
+  margin-top: 244px;
 }
 
 .quality__info-wrapper {
   padding: 100px 0 176px 85px;
   background-color: #000000;
-  width: 540px;
+  max-width: 540px;
 }
 
 .quality__info-title {
@@ -661,7 +707,7 @@ body {
   font-size: 35px;
   line-height: 48px;
   color: #FEFCF7;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .quality__info-text {
@@ -685,8 +731,36 @@ body {
   content: "";
   left: 750px;
   top: -80px;
+  max-width: 445px;
+  max-height: 474px;
 }
 
+@media only screen and (max-width: 990px) {
+  .quality__info-wrapper {
+    padding: 224px 0 67px 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .quality__info-title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .quality__img {
+    max-width: 90%;
+    height: 320px;
+    left: 323px;
+    top: -135px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .quality__img {
+    max-width: 90%;
+    height: 320px;
+    left: calc(50% - 140px);
+    top: -135px;
+  }
+}
 .headquarters {
   padding: 168px 85px;
 }

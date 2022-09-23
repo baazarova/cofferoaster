@@ -53,6 +53,10 @@
   opacity: 0.5;
   }
 
+ .web-list__logo-img{
+  max-width: 24px;
+ }
+
   @media only screen and (max-width:1000px) {
     .site-footer__div{
       display: block;
@@ -76,3 +80,4 @@
       justify-content: center;
     }
   }
+  

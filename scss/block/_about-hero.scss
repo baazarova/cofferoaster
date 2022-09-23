@@ -24,6 +24,27 @@ line-height: 26px;
 color: #FEFCF7;
 }
 .about-hero__info-wrapper{
-  width: 445px;
+  max-width: 445px;
+}
+
+@media only screen and (max-width:880px) {
+  .about-hero__title{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .about-hero__wrapper {
+  
+    background-image: url(../images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left -96px center;
+    border-radius: 10px;
+  
+  }
+}
+@media only screen and (max-width:768px) {
+  .container{
+    max-width: 768px;
+  }
 }
   

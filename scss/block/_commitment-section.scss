@@ -5,11 +5,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  
   }
   
   .commitment-section__info-wrap {
-    width: 540px;
-  margin-left: 125px;
+    max-width: 540px;
+ 
   }
   
   .info-wrap__title {
@@ -29,4 +30,30 @@
   line-height: 26px;
   color: #333D4B;
   opacity: 0.8;
+  }
+  .commitment-section__img{
+    max-width: 445px;
+    max-height: 520px;
+    margin-right: 125px;
+  }
+
+  @media only screen and (max-width:880px) {
+    .commitment-section__img{
+      max-width: 281px;
+      height: 470px;
+      margin-right: 69px;
+      border-radius: 8px;
+    }
+  
+    .info-wrap__title {
+      font-size: 32px;
+line-height: 48px;
+    }
+    .info-wrap__text{
+      font-size: 15px;
+line-height: 25px;
+    }
+    .commitment-section__info-wrap{
+      max-width: 339px;
+    }
   }
