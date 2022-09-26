@@ -33,6 +33,30 @@ opacity: 0.8;
     border-radius: 10px;
 }
 .create-hero__info-wrapper{
-    width: 485px;
+    max-width: 485px;
 }
    
+
+@media only screen and (max-width:840px) {
+    .create-hero__wrapper{
+
+        background-image: url(../../images/create.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -102px;
+        padding: 127px 0 126px 58px;
+        border-radius: 10px;
+      
+    }
+    .create-hero__title{
+        font-size: 48px;
+line-height: 48px;
+    }
+    .create-hero__text{
+        font-size: 15px;
+line-height: 25px;
+    }
+    .create-hero__info-wrapper{
+        max-width: 398px;
+    }
+}

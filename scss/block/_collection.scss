@@ -65,3 +65,33 @@
     text-align: start;
   }
  }
+ @media only screen and (max-width: 453px){
+  .collection__list{
+    background-image: url(../images/collectionbg.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+    
+  }
+  .collection__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .collection__title{
+    text-align: center;
+    font-size: 24px;
+line-height: 32px;
+  }
+  .collection__text{
+    font-size: 15px;
+line-height: 25px;
+text-align: center;
+  }
+  .collection__img{
+    max-width: 200px;
+  }
+  .collection__text-wrap{
+    max-width: 282px;
+  }
+ }

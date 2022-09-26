@@ -12,15 +12,10 @@
    
         border: 1px solid #0E8784;
         display: block;
-        width: 35px;
-        height: 35px;
+        max-width: 35px;
+        max-height: 35px;
         border-radius: 50%;
       }
-
-      .steps {
-      
-       
-    }
 
     .steps__list {
         list-style-type: none;
@@ -30,7 +25,9 @@
         justify-content: flex-start;
     }
     .steps__item {
-        width: 285px;
+        max-width: 285px;
+    }
+    .steps__item:not(:last-child){
         margin-right: 85px;
     }
     .steps__item-number {
@@ -64,3 +61,36 @@ color: #FEFCF7;
         padding: 100px 150px 100px 85px;
         border-radius: 10px;
     }
+
+
+   
+
+
+    @media only screen and (max-width: 840px){
+        .steps__item-title{
+            font-size: 28px;
+              line-height: 32px;
+              margin-bottom: 39px;
+        }
+        .steps__item-text{
+            font-size: 15px;
+            line-height: 25px;
+        }
+        .steps__item:not(:last-child) {
+            margin-right: 10px;
+          
+        }
+        .steps__box {
+            width: 418px;
+        }
+        .steps__box span {
+            width: 31px;
+            height: 31px;
+            border-radius: 50%;
+        }
+        .steps__list{
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+   

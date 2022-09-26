@@ -5,7 +5,7 @@
 }
 
 .type__wrap{
-    width: 730px;
+    max-width: 730px;
     
     }
     .type__title{
@@ -22,7 +22,7 @@
         list-style-type: none;
         align-items: center;
         justify-content: center;
-        gap: 23px;
+      
         list-style-type: none;
     }
     .type__item{
@@ -37,6 +37,9 @@
             background: #0E8784;
            color: #ffffff;
         }
+    }
+    .type__item:not(:last-child){
+        margin-right: 23px;
     }
     
     .type__item-title{
@@ -56,4 +59,19 @@
         line-height: 26px;
         color: #333D4B;
      
+    }
+    @media only screen and (max-width:1012px) {
+       .type{
+       margin: 0;
+       align-items: center;
+       }
+       .type__item:not(:last-child){
+        margin: 0;
+          margin-right: 10px;
+       }
+       .type__title{
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 40px;
+       }
     }

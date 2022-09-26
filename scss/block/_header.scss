@@ -29,5 +29,27 @@ color: #83888F;
   color: #333D4B;
 
 }
+.site-header__logo-img{
+    max-width:236px;
+    max-height: 26px;
+}
+.site-header__menu{
+    display: none;
+}
+
+@media only screen and (max-width: 620px) {
+.site-header__logo-img{
+    max-width: 163px;
+}
+
+.site-header__list{
+    display: none;
+}
+.site-header__menu{
+    display: block;
+    max-width: 16px;
+    height: 15px;
+}
+}
 
 
